@@ -1,0 +1,132 @@
+@import url("'https://fonts.googleapis.com/css?family=Lato:100,300,regular,700&display=swap");
+/*---------- Reset styles --------------*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+/* -------------------------------------------------------------- */
+.wrapper {
+  padding: 70px 15px 0 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.weather {
+  padding: 20px 30px;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+.weather__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weather__main {
+  margin-bottom: 12px;
+}
+.weather__city {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.weather__status {
+  font-size: 22px;
+  font-weight: 300;
+}
+.weather__temp {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.weather__fils-like {
+  font-size: 20px;
+  font-weight: 100;
+}
